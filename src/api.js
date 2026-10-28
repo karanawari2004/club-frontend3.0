@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-baseURL: "http://localhost:4001/api",
+baseURL: "https://club-backend3-0.onrender.com/api",
 withCredentials: true,
 });
 
